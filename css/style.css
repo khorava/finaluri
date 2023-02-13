@@ -1,0 +1,61 @@
+body {
+  height: 2000px;
+}
+
+header {
+  width: 100%;
+  background-color: #9eaec5;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  padding: 31px 16px 26px 13px;
+  background-color: #c0ba8f;
+  border-radius: 0 0 60px 60px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.no_active {
+  font-weight: bold;
+  color: #e3f6f6;
+}
+
+.active {
+  color: #623932;
+}
+
+.wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+/* section */
+
+.mtavari {
+  width: 100%;
+}
+
+.text_relative {
+  position: relative;
+}
+
+.text {
+  top: 50%;
+  width: 100%;
+  font-size: 96px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+}
